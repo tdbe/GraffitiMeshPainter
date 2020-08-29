@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Translucency
+  m_Shader: {fileID: 4800000, guid: d6909e30fd813df40bdd9301d7d96ba4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: ca1a5e504324857499d1fdeb25489439, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _Depth:
+        m_Texture: {fileID: 2800000, guid: d7587323b7bbc084ab37898fd841d0fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 233518d21026a2e4397650a59649e438, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 24b7ed9293c712a4bb5e0e66badcc3e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float0: 0
+    - _ScatteringPower: 1
+    - _Shininess: 0.01
+    - _Specular: 0.204
+    - _Test: 0.1
+    - _TransAmbient: 0.243
+    - _TransDirect: 0.584
+    - _TransNormalDistortion: 0.059
+    - _TransScattering: 11.3
+    - _TransShadow: 0.226
+    - _Translucency: 9.8
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.8235294, g: 0.01703852, b: 0, a: 0}
+    - _Color1: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 0.4788062, g: 0.495072, b: 0.60294116, a: 0}
+    - _TransmissionParams: {r: 0.1, g: 6, b: -2.03, a: 16.95}
+    - _Vector0: {r: 0, g: 0, b: 0, a: 0}

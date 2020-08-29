@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PaintBlitMaterial
+  m_Shader: {fileID: 4800000, guid: 129d4eb149937bc488a5327a850d5bf1, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BgTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 837eec8dec751384a9700a440e2aceb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ColorPicker
+      second:
+        m_Texture: {fileID: 2800000, guid: f0acbb1ba33592848bd4c77c3a5b1a02, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: -1.5, y: -0.59}
+    - first:
+        name: _ColorPickerDisplay
+      second:
+        m_Texture: {fileID: 2800000, guid: 5fb60b14cb0082c4a9fa96d1998e1d58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ColorPickerST2
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTexInternal
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTexScreen
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ToolOutlineTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 01a25ac75bb36d4459d8ae0380f85079, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.075, y: 0}
+    m_Floats:
+    - first:
+        name: _BlendAddition
+      second: 5
+    - first:
+        name: _BlendSubtraction
+      second: 2
+    - first:
+        name: _BrushScaleMod
+      second: 0.01
+    - first:
+        name: _BrushScaleOffset
+      second: 0.8
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _ColorSampleDist
+      second: 0.1
+    - first:
+        name: _ColorSampleMean
+      second: 1
+    - first:
+        name: _ColorSampleThresh
+      second: -0.3
+    - first:
+        name: _ConeClamp
+      second: 0.1
+    - first:
+        name: _ConeScale
+      second: 0.14
+    - first:
+        name: _ConeScale2
+      second: 3.97
+    - first:
+        name: _ConeScalePow
+      second: 4.81
+    - first:
+        name: _ConeZStop
+      second: -0.29
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DistanceFadeMod
+      second: 1
+    - first:
+        name: _DistanceFadeOffset
+      second: 0.6
+    - first:
+        name: _DistanceFadeScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _EdgeDetecionSampleOffset
+      second: 1
+    - first:
+        name: _EraseBlend
+      second: 4
+    - first:
+        name: _FadeScalePow
+      second: 0.42
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Init
+      second: 0
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SprayBlend
+      second: 7
+    - first:
+        name: _SprayCentreHardness
+      second: 0.28
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _TargetRingLocation
+      second: 2.01
+    - first:
+        name: _TargetRingThickness
+      second: 0.77
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _ColorPickerST2
+      second: {r: 1, g: 1.25, b: 1, a: 2.46}
+    - first:
+        name: _ColorSampleDist
+      second: {r: 0.5, g: 0.35, b: 0.8, a: 0.12}
+    - first:
+        name: _ColorSampleDist_ST
+      second: {r: 0.575, g: 0.32, b: 1.15, a: 0.7}
+    - first:
+        name: _ColorSamplerVolume
+      second: {r: 0, g: 0, b: 0.01, a: 37}
+    - first:
+        name: _ColorSamplerVolumeParams
+      second: {r: 90, g: 0.41, b: 1, a: 1}
+    - first:
+        name: _ConeClamp
+      second: {r: -0.34, g: 2.45, b: 0.01, a: 1}
+    - first:
+        name: _ConeShapeXY
+      second: {r: 0.08, g: 0.09, b: 0.4, a: 3.54}
+    - first:
+        name: _ControllerOffset
+      second: {r: 0.5, g: -0.13, b: 0, a: 1}
+    - first:
+        name: _ControllerScale
+      second: {r: 0.35, g: 0.35, b: 0, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _EraserColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _FadeScale
+      second: {r: 8, g: 8, b: 0.79, a: 1}
+    - first:
+        name: _FadeShapeXY
+      second: {r: 0.04, g: 5.38, b: 0.09, a: -0.37}
+    - first:
+        name: _PlayArea
+      second: {r: 1, g: 0.95, b: 1, a: 1}
+    - first:
+        name: _PlayParams
+      second: {r: 1, g: 0, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

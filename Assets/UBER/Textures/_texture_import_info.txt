@@ -1,0 +1,24 @@
+Heightmap textures:
+
+Suffix your heightmaps filenames with "_HeightsQDM" or "_Height" to prepare mip levels for quick POM algorithms
+Make sure they have alpha channel available !
+
+
+
+Specular&Gloss, Metalness&Gloss textures:
+
+Suffix filenames with "_SpecGloss" "_Gloss" or "_Metalness" to bake mip levels for specular power conservation
+
+
+
+Normal textures:
+
+To take advantage of high quality spcular filtering suffix filenames with "_Normal". If the prefix is the same as for gloss maps (smoothness stored in A chanel) above they will be baked with additional variance data. This means that high frequency normalmap areas will get lowered smoothness to reduce specular jittering and pixel artifacts for very glossy surfaces.
+
+NOTE - normal texture have to be marked as Read/Write enabled. After importing glossmaps and you can disable read/write flag back for all your normalmaps involved if needed.
+
+
+
+Distance Map textures:
+
+Suffix the B&W texture name with "_UBER_DistanceMap" to convert it into RGBA32 distance map. Texture will be limited to 256x256 size if needed (there is not enough precision on texture of 8 bit per color channel to store higher distances).

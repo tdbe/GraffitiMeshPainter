@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: f9da36e548e6a324f9b75e7f19138650
+timeCreated: 1439900555
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _MainTex2: {instanceID: 0}
+  - _SpecGlossMap: {instanceID: 0}
+  - _SpecGlossMap2: {instanceID: 0}
+  - _BumpMap: {instanceID: 0}
+  - _BumpMap2: {instanceID: 0}
+  - _ParallaxMap: {instanceID: 0}
+  - _ParallaxMap2: {instanceID: 0}
+  - _OcclusionMap: {instanceID: 0}
+  - _EmissionMap: {instanceID: 0}
+  - _DetailMask: {instanceID: 0}
+  - _DetailAlbedoMap: {instanceID: 0}
+  - _DetailNormalMap: {instanceID: 0}
+  - _SpecularRGBGlossADetail: {instanceID: 0}
+  - _MetallicGlossMapDetail: {instanceID: 0}
+  - _ObjectNormalsTex: {instanceID: 0}
+  - _ObjectTangentsTex: {instanceID: 0}
+  - _RippleMap: {fileID: 2800000, guid: 4d78c388d122b294d9dad82d13d2d3bc, type: 3}
+  - _RippleMapWet: {fileID: 2800000, guid: 4d78c388d122b294d9dad82d13d2d3bc, type: 3}
+  - _DropletsMap: {fileID: 2800000, guid: 471631afc291fae4087fd072b5dbe4f3, type: 3}
+  - _RippleMapSnow: {fileID: 2800000, guid: 4d78c388d122b294d9dad82d13d2d3bc, type: 3}
+  - _SparkleMapSnow: {fileID: 2800000, guid: 8311693489c9728459f451148124b4ae, type: 3}
+  - _SparkleMap: {fileID: 2800000, guid: 8311693489c9728459f451148124b4ae, type: 3}
+  - _SparkleMapGlitter: {fileID: 2800000, guid: 8311693489c9728459f451148124b4ae,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

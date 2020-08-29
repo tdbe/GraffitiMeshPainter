@@ -1,0 +1,4 @@
+These textures come from [Modular] AssetStore Package. Used under the Author's permission for showcase purpose only.
+Check the [Modular] package here:
+
+https://www.assetstore.unity3d.com/en/#!/content/22039

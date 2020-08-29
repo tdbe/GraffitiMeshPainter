@@ -1,0 +1,6 @@
+Suffix your model file with "POM_Baked" to bake tangent to object scale & curvature info (packed in uv4). Needed for POM shaders.
+
+Additionally suffix your model file with "_POM_Extrude" to prepare flat model for extrusion (there are POM Distance Map and POM Extrusion Map objects available in the example which has been prepared this way).
+"_BOTTOM" caps bottom side of the extruded object. Numerical value placed after "_POM_Extrude" suffix is useful to prepare mesh colliders for extruded objects (they get extruded "as is" not by shader).
+
+For POM Advanced shaders - mapped - right click on mesh filter component tab in inspector to get into context menu. Choose "Bake Object Topology to Texture" to prepare normals/tangents textures with tex to object space ratios. Texture will be automatically placed in material slot.

@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Paintable_AmplifyShaderStandard+Tess
+  m_Shader: {fileID: 4800000, guid: 09182848b7475fc468fbdf38ee264256, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BgTex:
+        m_Texture: {fileID: 2800000, guid: 837eec8dec751384a9700a440e2aceb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorPicker:
+        m_Texture: {fileID: 2800000, guid: f0acbb1ba33592848bd4c77c3a5b1a02, type: 3}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: -3.375, y: -1.3275}
+    - _ColorPickerDisplay:
+        m_Texture: {fileID: 2800000, guid: 2a46c1c6d8ebb844685c7b311db95cff, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7d7c8ca1a441d8643bd1aedc144f6b63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexInternal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexInternal_Sampler:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexScreen:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToolOutlineTex:
+        m_Texture: {fileID: 2800000, guid: 01a25ac75bb36d4459d8ae0380f85079, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.075, y: 0}
+    m_Floats:
+    - _BlendAddition: 5
+    - _BlendSubtraction: 2
+    - _BrushScaleMod: 0.01
+    - _BrushScaleOffset: 0.8
+    - _BumpScale: 1
+    - _ColorSampleDist: 0.1
+    - _ColorSampleMean: 1
+    - _ColorSampleThresh: -0.3
+    - _ConeClamp: 0.1
+    - _ConeScale: 0.14
+    - _ConeScale2: 3.97
+    - _ConeScalePow: 4.81
+    - _ConeZStop: -0.29
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistanceFadeMod: 1
+    - _DistanceFadeOffset: 0.6
+    - _DistanceFadeScale: 1
+    - _DstBlend: 0
+    - _EdgeDetecionSampleOffset: 1
+    - _EdgeLength: 15
+    - _EraseBlend: 7
+    - _FadeScalePow: 0.42
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Init: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SprayBlend: 15
+    - _SprayCentreHardness: 0.28
+    - _SrcBlend: 1
+    - _TargetRingLocation: 2.01
+    - _TargetRingThickness: 0.77
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 0, g: 1, b: 0.75050735, a: 1}
+    - _ColorSampleDist_ST: {r: 0.575, g: 0.32, b: 1.15, a: 0.7}
+    - _ColorSamplerVolume: {r: 0, g: 0, b: 0.01, a: 37}
+    - _ColorSamplerVolumeParams: {r: 90, g: 0.41, b: 1, a: 1}
+    - _ConeClamp: {r: -0.34, g: 2.45, b: 0.01, a: 1}
+    - _ConeShapeXY: {r: 0.08, g: 0.09, b: 0.4, a: 3.54}
+    - _ControllerOffset: {r: 0.5, g: -0.13, b: 0, a: 1}
+    - _ControllerScale: {r: 0.35, g: 0.35, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EraserColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FadeScale: {r: 8, g: 8, b: 0.79, a: 1}
+    - _FadeShapeXY: {r: 0.04, g: 5.38, b: 0.09, a: -0.37}
+    - _PlayArea: {r: 1, g: 0.95, b: 1, a: 1}
+    - _PlayParams: {r: 1, g: 0, b: 1, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

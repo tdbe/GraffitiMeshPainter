@@ -1,0 +1,1 @@
+When you need to customize shader (#define section) - copy it here and change what you need. It's important because of .cginc include files placement, your customized shader won't compile from other location.

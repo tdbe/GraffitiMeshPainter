@@ -1,0 +1,18 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+//#pragma kernel CSMain
+#pragma kernel TextureCSMainKernel
+
+
+//Texture2D<uint> inputTex1;     // a readable Texture2D that was defined as ARGB32
+// Create a RenderTexture with enableRandomWrite flag and set it
+RWTexture2D<uint> outputTex1;  // a writeable RenderTexture that was defined as ARGB32  
+							   
+// threads per group
+//3d indexed threads, per warp	
+[numthreads(32, 32, 1)]
+void TextureCSMainKernel(uint3 id : SV_DispatchThreadID)
+{
+	//Result[id.xy] = float4(id.x & id.y, (id.x & 15)/15.0, (id.y & 15)/15.0, 0.0);
+	//outputTex1[id.xy] = inputTex1[id.xy];
+	outputTex1[id.xy] = float4(id.x & id.y, (id.x & 15) / 15.0, (id.y & 15) / 15.0, 0.0);
+}

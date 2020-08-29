@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DoubleLayerCustomSurface
+  m_Shader: {fileID: 4800000, guid: 3beb92be39dd4b146a37ed79eba96c07, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CarNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoatNormal:
+        m_Texture: {fileID: 2800000, guid: b3d940e75e1f5d24684cd93a2758e1bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoatlNormal:
+        m_Texture: {fileID: 2800000, guid: b3d940e75e1f5d24684cd93a2758e1bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlakeColorMask:
+        m_Texture: {fileID: 2800000, guid: 21a6bd9b3f2c90047b38cea2fe37f5bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlakeMask:
+        m_Texture: {fileID: 2800000, guid: f3337d1b16764ec4b94b4e148a2192e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Flakes:
+        m_Texture: {fileID: 2800000, guid: 2741be98b31d56c43ad9cfbcaf99a799, type: 3}
+        m_Scale: {x: 6, y: 6}
+        m_Offset: {x: 0, y: 0}
+    - _FlakesNormal:
+        m_Texture: {fileID: 2800000, guid: a268ab862991c4743a9281c69bb2c36a, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _FlakesRGBcolorvariationAmask:
+        m_Texture: {fileID: 2800000, guid: 2741be98b31d56c43ad9cfbcaf99a799, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _MaskFlaks:
+        m_Texture: {fileID: 2800000, guid: 21a6bd9b3f2c90047b38cea2fe37f5bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OrangePeelNormal:
+        m_Texture: {fileID: 2800000, guid: b3d940e75e1f5d24684cd93a2758e1bf, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _T_FlakeMask:
+        m_Texture: {fileID: 2800000, guid: f3337d1b16764ec4b94b4e148a2192e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_MetalFlakes_N:
+        m_Texture: {fileID: 2800000, guid: 24496d6d8719fad4f864e967fbda4576, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 40bd4a70901dcd14ca65688f3f08b7c8, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _normal_flakes_Flake_Mask:
+        m_Texture: {fileID: 2800000, guid: a5cb640d1bcc09742b602f9a846b6f89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normal_flakes_output:
+        m_Texture: {fileID: 2800000, guid: da27fb303f4a4214eb9a79e0ee21736e, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _normal_flakes_outputcolors:
+        m_Texture: {fileID: 2800000, guid: 8f0e673104ee74d4e8b81221b12ef44d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _A: 1
+    - _B: 1
+    - _BaseMetallic: 0.166
+    - _BaseOcclusion: 0
+    - _BaseSmoothness: 0.556
+    - _Brightness: 1
+    - _CarMetallic: 0.5049318
+    - _CarSmoothness: 0
+    - _CarSmoothnessMax: 1
+    - _CarSmoothnessMin: 0.36406696
+    - _ClearCoatSmoothness: 0.95
+    - _Coat: 0.3
+    - _CoatAmount: 0.311
+    - _CoatBump: 0.379
+    - _CoatSmoothness: 0.95
+    - _FlakeColorVariationAmount: 0.367
+    - _FlakesBrightness: 1
+    - _FlakesBump: 0.306
+    - _FlakesMetallic: 0.362
+    - _FlakesScale: 50
+    - _FlakesSmoothness: 0.821
+    - _FlakesTilling: 0
+    - _Float0: 1
+    - _Float1: 0.5
+    - _Float2: 0.6
+    - _Float3: 0
+    - _Float4: 0.5
+    - _OrangePeelBump: 0.2
+    - _OrangePeelSmoothness: 0.95
+    - _OrangePeelTilling: 20
+    - _Phase: 0.02
+    - _Smooth: 0.5
+    - _Tilling: 1
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.3970588, g: 0.19232786, b: 0.03503461, a: 0}
+    - _BaseColor1: {r: 1, g: 0.933347, b: 0.8820755, a: 0}
+    - _BaseColor2: {r: 0.56470275, g: 0.6017923, b: 0.8490566, a: 0}
+    - _CarColor: {r: 0.08832457, g: 0.07493501, b: 0.46323526, a: 0}
+    - _CarPaintColor: {r: 0.088324, g: 0.074934505, b: 0.46323526, a: 0}
+    - _Color1: {r: 0.021626277, g: 0.056079105, b: 0.7352942, a: 0.953}
+    - _Color3: {r: 0.035034638, g: 0.08247225, b: 0.39705884, a: 0}
+    - _FlakesColor: {r: 0.73529416, g: 0.021626318, b: 0.36123332, a: 0.953}
+    - _FlakesColor1: {r: 0.73529416, g: 0.021626318, b: 0.3612324, a: 0}
+    - _FlakesColor2: {r: 0.6273585, g: 0.64304864, b: 1, a: 0}
+    - _Offset1: {r: 1.2, g: 6.53, b: -6.86, a: 0}

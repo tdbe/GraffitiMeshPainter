@@ -1,0 +1,3 @@
+Use "Deferred Shading UBER.shader" from Alloy installation to have Alloy with UBER features working (included and matching in Alloy 3.2.6)
+
+If you'd like UBER shaders to keep the same light falloff in FORWARD (for example transparent materials) look into UBER_StandardConfig.cginc and set #define UBER_MATCH_ALLOY_LIGHT_FALLOFF 1
