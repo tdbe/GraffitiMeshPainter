@@ -1,3 +1,10 @@
+The bottom-right video in my old PCG projects mosaic video here:
+
+https://github.com/user-attachments/assets/daddf7cf-ffe2-4f95-b956-547fcb3ab378
+
+
+
+
 Unity tool that uses RWStructuredBuffers and RenderTextures and an atlasser to paint on any type mesh using a SDF brush, in the same material as the one that renders normally to the screen.
 
 2019:
